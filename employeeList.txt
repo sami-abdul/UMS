@@ -1,0 +1,32 @@
+dn100,Mr.Badar Sami,Ph.D (Candid) M.CS (KU),UBIT,dn100,700000,80,DEAN,3000
+dn200,Dr.Farrukh Iqbal,Ph.D Economics (USA),IBA,dn200,900000,88,DEAN,3001
+dn300,Dr.Iqbal Akhtar,Ph.D (KU),Pharmacy,dn300,600000,76,DEAN,3002
+tr101,Mr.Syed Jamal Hussain,M.CS (KU),UBIT,tr101,150000,68,TEACHER,2001
+tr102,Dr.M.Sadiq Ali Khan,Ph.D (KU),UBIT,tr102,250000,70,TEACHER,2002
+tr103,Dr.Nadeem Mehmood,Ph.D (KU),UBIT,tr103,300000,72,TEACHER,2003
+tr104,Dr.Muhammad Saeed,Ph.D (KU),UBIT,tr104,250000,69,TEACHER,2004
+tr105,Mr.Khalid Jamal,Ph.D (candid),UBIT,tr105,300000,69,TEACHER,2005
+tr106,Dr.Humera Tariq,Ph.D (KU),UBIT,tr106,250000,79,TEACHER,2006
+tr107,Ms.Mariam Feroz,MSCS (IBA),UBIT,tr107,200000,82,TEACHER,2007
+tr108,Dr.Zain Abbas,Ph.D (KU),UBIT,tr108,250000,66,TEACHER,2008
+tr109,Mr.Asim Ali,Ph.D (Candid) M.CS (KU),UBIT,tr109,250000,60,TEACHER,2009
+tr110,A. AfghanNasir,Ph.D Managerial Effectivenes(Netherlands),IBA,tr110,350000,80,TEACHER,2010
+tr111,Naveed Ahmad,Ph.D (KU),IBA,tr111,300000,67,TEACHER,2011
+tr112,Fatima Akhund,Ph.D Economics (UK),IBA,tr112,400000,89,TEACHER,2012
+tr113,Maqsood Alam,Ph.D Marketing (Malaysia),IBA,tr113,350000,78,TEACHER,2013
+tr114,Dr. Danish Ali,M.Sc Makrketing (UK),IBA,tr114,350000,71,TEACHER,2014
+tr115,Nyla Aleem Ansari,Ph.D (KU),IBA,tr115,300000,81,TEACHER,2015
+tr116,Mehwish Ghulam Ali,Ph.D Performance Management (France),IBA,tr116,450000,65,TEACHER,2016
+tr117,Azam Ali, Ph.D Mathematics (Lahore),IBA,tr117,350000,91,TEACHER,2017
+tr118,Muhammad Waseem Arain, Ph.D Pursuing (IBA),IBA,tr118,400000,76,TEACHER,2018
+tr119,Zaheeruddin1 Asif,Ph.D MIS (USA),IBA,tr119,450000,76,TEACHER,2019
+tr120,Mr.Salman Ahmed,M.Phil (Pharmacognosy),Pharmacy,tr120,200000,88,TEACHER,2020
+tr121,Dr.Nuzhat Sultana,Ph.D (Pharmacognosy),Pharmacy,tr121,250000,80,TEACHER,2021
+tr122,Dr.Rafeeq Alam Khan,Ph.D (Pharmacology),Pharmacy,tr122,250000,73,TEACHER,2022
+tr123,Dr.Azra Riaz,Ph.D (Pharmacology),Pharmacy,tr123,250000,75,TEACHER,2023
+tr124,Mr.Shadab Ahmed,M. Phil (B.Pharmacy),Pharmacy,tr124,200000,79,TEACHER,2024
+tr125,Dr.Saira Saeed Khan,Ph.D (B.Pharmacy),Pharmacy,tr125,250000,79,TEACHER,2025
+tr126,Dr.Sadia Ghousia Baig,Ph.D (Pharmacology),Pharmacy,tr126,250000,70,TEACHER,2026
+tr127,Dr.Afshan Siddiq,Ph.D (Pharmacology),Pharmacy,tr127,250000,69,TEACHER,2027
+tr128,Dr.Rahela Najam,Ph.D (Pharmacology),Pharmacy,tr128,250000,81,TEACHER,2028
+tr129,Mr.Afaq Ahmed,M. Phil (B.Pharmacy),Pharmacy,tr129,200000,68,TEACHER,2029

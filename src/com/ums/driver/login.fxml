@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*-
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.-
+ *-
+ * Copyright (c) 2013 Oracle and/or its affiliates. All rights reserved.-
+ *-
+ * The contents of this file are subject to the terms of either the GNU-
+ * General Public License Version 2 only ("GPL") or the Common Development-
+ * and Distribution License("CDDL") (collectively, the "License"). You-
+ * may not use this file except in compliance with the License. You can-
+ * obtain a copy of the License at-
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html-
+ * or packager/legal/LICENSE.txt.  See the License for the specific-
+ * language governing permissions and limitations under the License.-
+ *-
+ * When distributing the software, include this License Header Notice in each-
+ * file and include the License file at packager/legal/LICENSE.txt.-
+ *-
+ * GPL Classpath Exception:-
+ * Oracle designates this particular file as subject to the "Classpath"-
+ * exception as provided by Oracle in the GPL Version 2 section of the License-
+ * file that accompanied this code.-
+ *-
+ * Modifications:-
+ * If applicable, add the following below the License Header, with the fields-
+ * enclosed by brackets [] replaced by your own identifying information:-
+ * "Portions Copyright [year] [name of copyright owner]"-
+ *-
+ * Contributor(s):-
+ * If you wish your version of this file to be governed by only the CDDL or-
+ * only the GPL Version 2, indicate your decision by adding "[Contributor]-
+ * elects to include this software in this distribution under the [CDDL or GPL-
+ * Version 2] license."  If you don't indicate a single choice of license, a-
+ * recipient has the option to distribute your version of this file under-
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to-
+ * its licensees as provided above.  However, if you add GPL Version 2 code-
+ * and therefore, elected the GPL Version 2 license, then the option applies-
+ * only if the new code is made subject to such option by the copyright-
+ * holder.-
+ */ -
+-->
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="1356.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ums.driver.LoginController">
+    <children>
+        <ImageView fitHeight="770.0" fitWidth="337.0" layoutX="-2.0" layoutY="-5.0">
+            <image>
+                <Image url="@Untitled2.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="82.0" fitWidth="88.0" layoutX="77.0" layoutY="629.0">
+            <image>
+                <Image url="@university.jpg" />
+            </image>
+        </ImageView>
+        <Text layoutX="165.0" layoutY="666.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#016f61" layoutX="165.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Management System">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <JFXButton fx:id="login" buttonType="RAISED" layoutX="733.0" layoutY="485.0" onAction="#login" prefHeight="30.0" prefWidth="88.0" style="-fx-background-color: #016F61;" text="Log In" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="exit" buttonType="RAISED" layoutX="1222.0" layoutY="657.0" onAction="#exit" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #016F61;" text="Exit" textFill="WHITE" />
+        <JFXTextField fx:id="tField" focusColor="#016f61" layoutX="561.0" layoutY="315.0" maxWidth="268.0" minWidth="187.0" prefHeight="31.0" prefWidth="268.0" promptText="Enter ID" />
+        <JFXPasswordField fx:id="pField" focusColor="#016f61" layoutX="561.0" layoutY="373.0" maxWidth="299.0" minWidth="187.0" prefHeight="31.0" prefWidth="268.0" promptText="Enter Password" />
+        <JFXComboBox fx:id="choices" layoutX="568.0" layoutY="448.0" prefHeight="25.0" prefWidth="129.0" promptText="Select one" />
+        <JFXButton fx:id="exit1" buttonType="RAISED" layoutX="51.0" layoutY="42.0" onAction="#goBack" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #016F61;" text="&lt; Go Back" textFill="WHITE" />
+        <Label fx:id="label" layoutX="844.0" layoutY="491.0" prefHeight="17.0" prefWidth="182.0" textFill="RED" />
+        <Label layoutX="330.0" layoutY="697.0" text="Version 1.3" />
+    </children>
+</AnchorPane>

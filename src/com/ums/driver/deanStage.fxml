@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*-
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.-
+ *-
+ * Copyright (c) 2013 Oracle and/or its affiliates. All rights reserved.-
+ *-
+ * The contents of this file are subject to the terms of either the GNU-
+ * General Public License Version 2 only ("GPL") or the Common Development-
+ * and Distribution License("CDDL") (collectively, the "License"). You-
+ * may not use this file except in compliance with the License. You can-
+ * obtain a copy of the License at-
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html-
+ * or packager/legal/LICENSE.txt.  See the License for the specific-
+ * language governing permissions and limitations under the License.-
+ *-
+ * When distributing the software, include this License Header Notice in each-
+ * file and include the License file at packager/legal/LICENSE.txt.-
+ *-
+ * GPL Classpath Exception:-
+ * Oracle designates this particular file as subject to the "Classpath"-
+ * exception as provided by Oracle in the GPL Version 2 section of the License-
+ * file that accompanied this code.-
+ *-
+ * Modifications:-
+ * If applicable, add the following below the License Header, with the fields-
+ * enclosed by brackets [] replaced by your own identifying information:-
+ * "Portions Copyright [year] [name of copyright owner]"-
+ *-
+ * Contributor(s):-
+ * If you wish your version of this file to be governed by only the CDDL or-
+ * only the GPL Version 2, indicate your decision by adding "[Contributor]-
+ * elects to include this software in this distribution under the [CDDL or GPL-
+ * Version 2] license."  If you don't indicate a single choice of license, a-
+ * recipient has the option to distribute your version of this file under-
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to-
+ * its licensees as provided above.  However, if you add GPL Version 2 code-
+ * and therefore, elected the GPL Version 2 license, then the option applies-
+ * only if the new code is made subject to such option by the copyright-
+ * holder.-
+ */ -
+-->
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="745.0" prefWidth="1356.0" style="-fx-background-color: #ffffff;"
+            xmlns="http://javafx.com/javafx/8" fx:controller="com.ums.driver.DeanStageController">
+    <children>
+        <ImageView fitHeight="82.0" fitWidth="88.0" layoutX="77.0" layoutY="629.0">
+            <image>
+                <Image url="@university.jpg"/>
+            </image>
+        </ImageView>
+        <Text layoutX="165.0" layoutY="666.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Text>
+        <Text fill="#016f61" layoutX="165.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Management System">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Text>
+        <JFXButton fx:id="exit" buttonType="RAISED" layoutX="1222.0" layoutY="657.0" onAction="#exit" prefHeight="25.0"
+                   prefWidth="79.0" style="-fx-background-color: #016F61;" text="Exit" textFill="WHITE"/>
+        <Label fx:id="label" layoutX="844.0" layoutY="491.0" prefHeight="17.0" prefWidth="182.0" textFill="RED"/>
+        <VBox layoutX="104.0" layoutY="110.0" spacing="8.0">
+            <children>
+                <JFXButton fx:id="but1" buttonType="RAISED" onAction="#viewPersonalInfo"
+                           style="-fx-background-color: #016F61;" text="View Personal Information" textFill="WHITE"/>
+                <JFXButton fx:id="but2" buttonType="RAISED" onAction="#generateResultReport"
+                           style="-fx-background-color: #016F61;" text="Generate Result Report of Students"
+                           textFill="WHITE"/>
+                <JFXButton fx:id="but3" buttonType="RAISED" onAction="#generateAttandanceReport"
+                           style="-fx-background-color: #016F61;" text="Generate Attendance Report" textFill="WHITE"/>
+                <JFXButton fx:id="but4" buttonType="RAISED" onAction="#generateSalaryReport" prefHeight="25.0"
+                           prefWidth="215.0" style="-fx-background-color: #016F61;"
+                           text="Generate Salary Report of Employees" textFill="WHITE"/>
+                <JFXButton fx:id="but5" buttonType="RAISED" onAction="#viewTeachers"
+                           style="-fx-background-color: #016F61;" text="View Teachers" textFill="WHITE"/>
+                <JFXButton fx:id="but6" buttonType="RAISED" onAction="#viewStudents"
+                           style="-fx-background-color: #016F61;" text="View Students" textFill="WHITE"/>
+                <JFXButton fx:id="but7" buttonType="RAISED" onAction="#viewCourses"
+                           style="-fx-background-color: #016F61;" text="View Courses" textFill="WHITE"/>
+                <JFXButton fx:id="but61" buttonType="RAISED" onAction="#registerTeacher"
+                           style="-fx-background-color: #016F61;" text="Register New Teacher" textFill="WHITE"/>
+                <JFXButton fx:id="but8" buttonType="RAISED" onAction="#fireTeacher"
+                           style="-fx-background-color: #016F61;" text="Fire A Teacher" textFill="WHITE"/>
+                <JFXButton fx:id="but9" buttonType="RAISED" onAction="#registerStudent"
+                           style="-fx-background-color: #016F61;" text="Register New Student" textFill="WHITE"/>
+                <JFXButton fx:id="but10" buttonType="RAISED" onAction="#suspendStudent"
+                           style="-fx-background-color: #016F61;" text="Suspend Student" textFill="WHITE"/>
+                <JFXButton fx:id="but11" buttonType="RAISED" onAction="#modifyCourse"
+                           style="-fx-background-color: #016F61;" text="Modify Course" textFill="WHITE"/>
+                <JFXButton fx:id="but12" buttonType="RAISED" style="-fx-background-color: #016F61;" text="Message"
+                           textFill="WHITE"/>
+                <JFXButton fx:id="but13" buttonType="RAISED" onAction="#increaseInSalary"
+                           style="-fx-background-color: #016F61;" text="Request Increase In Salary" textFill="WHITE"/>
+                <JFXButton fx:id="but14" buttonType="RAISED" onAction="#resign" style="-fx-background-color: #016F61;"
+                           text="Resign" textFill="WHITE"/>
+            </children>
+        </VBox>
+        <JFXTextArea fx:id="area" focusColor="#016f61" layoutX="366.0" layoutY="107.0" maxWidth="742.0" minWidth="347.0"
+                     prefHeight="487.0" prefWidth="724.0"/>
+        <Text fx:id="text" layoutX="104.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              wrappingWidth="644.296875">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Text>
+        <VBox layoutX="1114.0" layoutY="140.0" spacing="10.0">
+            <children>
+                <JFXButton fx:id="sort1" buttonType="RAISED" layoutX="10.0" layoutY="45.0" onAction="#sortTeachers"
+                           prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #016F61;"
+                           text="Sort Teachers" textFill="WHITE"/>
+                <JFXButton fx:id="sort2" buttonType="RAISED" onAction="#sortStudents" prefHeight="25.0" prefWidth="90.0"
+                           style="-fx-background-color: #016F61;" text="Sort Students" textFill="WHITE"/>
+                <JFXButton fx:id="sort3" buttonType="RAISED" onAction="#sortCourses" prefHeight="25.0" prefWidth="91.0"
+                           style="-fx-background-color: #016F61;" text="Sort Courses" textFill="WHITE"/>
+            </children>
+        </VBox>
+        <Label layoutX="330.0" layoutY="697.0" text="Version 1.3"/>
+        <Separator layoutX="341.0" layoutY="107.0" orientation="VERTICAL" prefHeight="487.0" prefWidth="4.0"/>
+        <HBox layoutX="1051.0" layoutY="58.0" spacing="60.0">
+            <children>
+                <JFXButton fx:id="pass" buttonType="RAISED" onAction="#changePassword" prefHeight="25.0"
+                           prefWidth="111.0" style="-fx-background-color: #016F61;" text="Change Password"
+                           textFill="WHITE"/>
+                <JFXButton fx:id="logout" buttonType="RAISED" onAction="#logout" prefHeight="25.0" prefWidth="79.0"
+                           style="-fx-background-color: #016F61;" text="Log Out" textFill="WHITE"/>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
