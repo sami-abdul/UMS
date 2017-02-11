@@ -1,0 +1,458 @@
+BSCS-301,Introduction to Computer Science - I,3,BS (Computer Science),UBIT
+BSCS-3000,qwe,3,BS (Computer Science),UBIT
+BSCS-303,Mathematics - I (Calculus),3,BS (Computer Science),UBIT
+BSCS-305,Statistics and Data Analysis,3,BS (Computer Science),UBIT
+BSCS-307,Statistics and Data Analysis,3,BS (Computer Science),UBIT
+BSCS-309,English - I,3,BS (Computer Science),UBIT
+BSCS-311,Islamic Learning & Pakistan Studies or Ethics & Pakistan Studies,3,BS (Computer Science),UBIT
+BSCS-302,Introduction to Computer Science - II,3,BS (Computer Science),UBIT
+BSCS-304,Mathematics - II (Differential Equations),3,BS (Computer Science),UBIT
+BSCS-306,Probability and Statistical Methods,3,BS (Computer Science),UBIT
+BSCS-308,Physics - II (Electricity and Magnetism),3,BS (Computer Science),UBIT
+BSCS-310,English - II,3,BS (Computer Science),UBIT
+BSCS-312,Urdu,3,BS (Computer Science),UBIT
+BSCS-401,Digital Computer Design Fundamentals,3,BS (Computer Science),UBIT
+BSCS-403,Assembly Language Programming,3,BS (Computer Science),UBIT
+BSCS-405,Mathematics - III (Linear Algebra and Analytical Geometry),3,BS (Computer Science),UBIT
+BSCS-407,Materials Semiconductors and Devices,3,BS (Computer Science),UBIT
+BSCS-409,Discrete Mathematics,3,BS (Computer Science),UBIT
+BSCS-411,Object Oriented Programming,3,BS (Computer Science),UBIT
+BSCS-413,Data Structures,3,BS (Computer Science),UBIT
+BSCS-402,System Design with Microprocessors,3,BS (Computer Science),UBIT
+BSCS-404,Mathematics - IV (Numerical Computing),3,BS (Computer Science),UBIT
+BSCS-406,Electronics,3,BS (Computer Science),UBIT
+BSCS-410,Software Engineering & Project Management,3,BS (Computer Science),UBIT
+BSCS-412,Communication Skills and Report Writing,3,BS (Computer Science),UBIT
+BSCS-514,Theory of Computer Science,3,BS (Computer Science),UBIT
+BSCS-501,Data Communication and Networking - I,3,BS (Computer Science),UBIT
+BSCS-501,Stochastic Processes and Inference,3,BS (Computer Science),UBIT
+BSCS-501,Operations Research - I,3,BS (Computer Science),UBIT
+BSCS-501,Database Systems,3,BS (Computer Science),UBIT
+BSCS-501,Computer Organization and Architecture,3,BS (Computer Science),UBIT
+BSCS-501,Advanced Numerical Analysis,3,BS (Computer Science),UBIT
+BSCS-501,Artificial Intelligence,3,BS (Computer Science),UBIT
+BSCS-501,System Analysis & Design,3,BS (Computer Science),UBIT
+BSCS-501,Business Programming Language,3,BS (Computer Science),UBIT
+BSCS-502,Concepts of Operating Systems,3,BS (Computer Science),UBIT
+BSCS-502,Compiler Construction - I,3,BS (Computer Science),UBIT
+BSCS-502,Modeling and Simulation,3,BS (Computer Science),UBIT
+BSCS-502,Operations Research - II,3,BS (Computer Science),UBIT
+BSCS-502,Microcomputer Design and Interfacing - I,3,BS (Computer Science),UBIT
+BSCS-502,Data Communication and Networking - II,3,BS (Computer Science),UBIT
+BSCS-502,Computer Graphics,3,BS (Computer Science),UBIT
+BSCS-502,Advanced Software Engineering,3,BS (Computer Science),UBIT
+BSCS-502,Expert Systems,3,BS (Computer Science),UBIT
+BSCS-601,Theory of Operating Systems,3,BS (Computer Science),UBIT
+BSCS-601,Compiler Construction - II,3,BS (Computer Science),UBIT
+BSCS-601,Advanced Computer Graphics,3,BS (Computer Science),UBIT
+BSCS-601,Financial Accounting,3,BS (Computer Science),UBIT
+BSCS-601,Microcomputer Design & Interfacing - II,3,BS (Computer Science),UBIT
+BSCS-601,Parallel Computing,3,BS (Computer Science),UBIT
+BSCS-601,Management Information System,3,BS (Computer Science),UBIT
+BSCS-601,VLSI Design Techniques,3,BS (Computer Science),UBIT
+BSCS-601,Internet Application Development,3,BS (Computer Science),UBIT
+BSCS-602,Operating System Case Study,3,BS (Computer Science),UBIT
+BSCS-602,Natural Language Processing,3,BS (Computer Science),UBIT
+BSCS-602,Distributed Database Systems,3,BS (Computer Science),UBIT
+BSCS-602,Design and Analysis of Algorithms,3,BS (Computer Science),UBIT
+BSCS-602,Financial Management,3,BS (Computer Science),UBIT
+BSCS-602,Multimedia Systems,3,BS (Computer Science),UBIT
+BSCS-602,Computational Linear Algebra,3,BS (Computer Science),UBIT
+CS(SE)-301,Calculus and Analytical Geometry - I,3,BS(Software Engineering),UBIT
+CS(SE)-303,Computer Logic Design and Computer Organization,3,BS (Software Engineering),UBIT
+CS(SE)-305,Introduction to C/C++ Language,4,BS (Software Engineering),UBIT
+CS(SE)-307,Islamic Studies,2,BS (Software Engineering),UBIT
+CS(SE)-309,Probability and Statistics,3,BS (Software Engineering),UBIT
+CS(SE)-302,Business Communication Skills,3,BS (Software Engineering),UBIT
+CS(SE)-304,Pakistan Studies,3,BS (Software Engineering),UBIT
+CS(SE)-306,Calculus and Analytical Geometry - II,3,BS (Software Engineering),UBIT
+CS(SE)-308,Linear Algebra,3,BS (Software Engineering),UBIT
+CS(SE)-310,Object Oriented Concepts using JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-312,Software Engineering - I,4,BS (Software Engineering),UBIT
+CS(SE)-401,Advanced JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-403,Relational Database Management System (RDBMS),3,BS (Software Engineering),UBIT
+CS(SE)-405,Data Structure using JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-407,Operations Research,3,BS (Software Engineering),UBIT
+CS(SE)-409,Discrete Mathematics,3,BS (Software Engineering),UBIT
+CS(SE)-411,Ordinary Differential Equations,3,BS (Software Engineering),UBIT
+CS(SE)-402,Assembly Language,4,BS (Software Engineering),UBIT
+CS(SE)-404,Operating Systems,4,BS (Software Engineering),UBIT
+CS(SE)-406,Business Economics,3,BS (Software Engineering),UBIT
+CS(SE)-408,Numerical Analysis,3,BS (Software Engineering),UBIT
+CS(SE)-410,Business Communication Skills - II,3,BS (Software Engineering),UBIT
+CS(SE)-501,Compiler Construction,3,BS (Software Engineering),UBIT
+CS(SE)-503,Computer Architecture,3,BS (Software Engineering),UBIT
+CS(SE)-505,Organization Behaviour,3,BS (Software Engineering),UBIT
+CS(SE)-507,Practical Networking and Data Communication,3,BS (Software Engineering),UBIT
+CS(SE)-509,Software Engineering - II,4,BS (Software Engineering),UBIT
+CS(SE)-502,Advance JAVA and Internet Programming,4,BS (Software Engineering),UBIT
+CS(SE)-506,Software Project Management,4,BS (Software Engineering),UBIT
+CS(SE)-508,Marketing Management,3,BS (Software Engineering),UBIT
+CS(SE)-601,Distributed Computing,3,BS (Software Engineering),UBIT
+CS(SE)-603,Software Process Management,4,BS (Software Engineering),UBIT
+CS(SE)-605,Computerized Accounting,3,BS (Software Engineering),UBIT
+CS(SE)-602,Psychology,3,BS (Software Engineering),UBIT
+CS(SE)-604,Software Testing,4,BS (Software Engineering),UBIT
+PHL-305,Islamic Idealogy-Pakistan Studies,2,D.Pharm,Pharmacy
+PHL-308,Physiology & Histology II,3,D.Pharm,Pharmacy
+PHL-307,Physiology & Histology I,3,D.Pharm,Pharmacy
+PHL-310,Pharmaceutical Biochemistry II,3,D.Pharm,Pharmacy
+PHL-309,Pharmaceutical Biochemistry I,3,D.Pharm,Pharmacy
+PHL-314,Pharmacology - Anatomy,2,D.Pharm,Pharmacy
+PHL-311,Pharmaceutical Biochemistry (lab),3,D.Pharm,Pharmacy
+PHL-407,Physiology & Histology (Lab),3,D.Pharm,Pharmacy
+PHL-410,Systemic Pharmacology - I,3,D.Pharm,Pharmacy
+PHL-409,Pharmacology & Therspeutics,3,D.Pharm,Pharmacy
+PHL-413,Pharmacology - Pathology,2,D.Pharm,Pharmacy
+PHL-507,Pharmacology - Systemic Pharmacology - II,3,D.Pharm,Pharmacy
+PHL-510,Pharmacology - Pharmacology Lab - I,3,D.Pharm,Pharmacy
+PHT-509,Pharmacology - Pathology (Lab),2,D.Pharm,Pharmacy
+PHL-609,Pharmacology - Systemic Pharmacology - III,3,D.Pharm,Pharmacy
+PHL-612,Pharmacology Lab - II,3,D.Pharm,Pharmacy
+PHL-711,Pharmacology - Clinical Pharmacology,2,D.Pharm,Pharmacy
+PHL-712,Pharmacology - Toxicology,2,D.Pharm,Pharmacy
+PHT-301,Fundamentals of Pharmacy Theory,3,D.Pharm,Pharmacy
+PHT-302,Pharmaceutical Dosage Forms Theory (I),3,D.Pharm,Pharmacy
+PHT-401,Pharmaceutical Dosage Forms Theory (II),3,D.Pharm,Pharmacy
+PHT-402,Pharmaceutical Dosage Forms (Practical),3,D.Pharm,Pharmacy
+PHT-403,Pharmaceutical Microbiology (I),3,D.Pharm,Pharmacy
+PHT-404,Pharmaceutical Microbiology (II),3,D.Pharm,Pharmacy
+PHT-501,Pharmaceutical Microbiology (Practical),3,D.Pharm,Pharmacy
+PHT-502,Physical Pharmacy,3,D.Pharm,Pharmacy
+PHT-513,Computer Application in Pharmacy (Practical),2,D.Pharm,Pharmacy
+PHT-504,Industrial Pharmacy (I) Pharmaceutical Unit Operations,3,D.Pharm,Pharmacy
+PHT-601,Physical Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-602,Hospital Pharmacy,3,D.Pharm,Pharmacy
+PHT-603,Industrial Pharmacy (II) Pharmaceutical Engineering,3,D.Pharm,Pharmacy
+PHT-604,Industrial Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-605,Bio-Pharmaceutics and Pharmacokinetics (I),3,D.Pharm,Pharmacy
+PHT-606,Clinical Pharmacokinetics (II),3,D.Pharm,Pharmacy
+PHT-613,Pharmaceutical Technology,2,D.Pharm,Pharmacy
+PHT-614,Pharmaceutical Technology (Practical),2,D.Pharm,Pharmacy
+PHT-701,Clinical Pharmacy (I) Pharmaceutical and Therapeutic Care,3,D.Pharm,Pharmacy
+PHT-702,Clinical Pharmacy (II),3,D.Pharm,Pharmacy
+PHT-703,Forensic Pharmacy,3,D.Pharm,Pharmacy
+PHT-704,Pharmaceutical Management and Marketing,3,D.Pharm,Pharmacy
+PHT-705,Prescription Pharmacy and Community Pharmacy,3,D.Pharm,Pharmacy
+PHT-706,Prescription Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-708,Pharmaceutical Quality Control and Quality Assurance,3,D.Pharm,Pharmacy
+1101,Introduction to Accounting,3,BBA,IBA
+1102,Microeconomics,3,BBA,IBA
+1106,Islamiat and Pakistan Studies/Humanities,3,BBA,IBA
+1105,English Writing Skills,3,BBA,IBA
+1108,IT in Business,3,BBA,IBA
+1201,Financial Accounting,3,BBA,IBA
+1109,Personal Management and Communication,3,BBA,IBA
+1203,Management Principles,3,BBA,IBA
+1204,Maths for Business,3,BBA,IBA
+2307,Sociology,3,BBA,IBA
+1206,Oral Communication and Presentation Skills,3,BBA,IBA
+2312,Human Behavior,3,BBA,IBA
+1202,Macroeconomics,3,BBA,IBA
+2311,Business Statistics,3,BBA,IBA
+1211,Logic and Critical Thinking,3,BBA,IBA
+2401,Money and Banking,3,BBA,IBA
+2301,Introduction to Business Finance,3,BBA,IBA
+2402,Retail Management,3,BBA,IBA
+2303,Marketing Principles,3,BBA,IBA
+2406,Business and Electronic Communication,3,BBA,IBA
+2403,Business Ethics,3,BBA,IBA
+3504,Organizational Behavior,3,BBA,IBA
+2408,Cost Accounting,3,BBA,IBA
+3507,Consumer Behavior,3,BBA,IBA
+3506,Financial Markets and Institutions,3,BBA,IBA
+3601,Financial Management,3,BBA,IBA
+3508,Media Management,3,BBA,IBA
+3602,Marketing Management,3,BBA,IBA
+3605,Statistical Inference,3,BBA,IBA
+3607,Operations Management,3,BBA,IBA
+4706,Development Economics,3,BBA,IBA
+3603,Business Research Methods,3,BBA,IBA
+4801,Law and Taxation,3,BBA,IBA
+4804,Human Resource Management,3,BBA,IBA
+3519,Current Affairs,3,BBA,IBA
+3506,Foreign Languages,3,BBA,IBA
+3619,Enterprise Management,3,BBA,IBA
+3614,Business Analysis and Forecasting,3,BBA,IBA
+4707,Marketing Research,3,BBA,IBA
+4701,Islamic Banking and Finance,3,BBA,IBA
+4842,Graphic Design for Multimedia,3,BBA,IBA
+3613,World Economy,3,BBA,IBA
+1102,Calculus and Analytical Geometry,3,BS (Computer Science),IBA
+1108,Object Oriented Programming,3,BS (Computer Science),IBA
+1103,Physics-I,3,BS (Computer Science),IBA
+1211,Technical and Business Writing,3,BS (Computer Science),IBA
+1111,English Composition and Comprehension,3,BS (Computer Science),IBA
+1212,Statistics and Probability,3,BS (Computer Science),IBA
+1117,Introduction to Computing,3,BS (Computer Science),IBA
+3505,Discrete Mathematical Structures,3,BS (Computer Science),IBA
+1206,Islamiat and Pakistan Studies/Humanities,3,BS (Computer Science),IBA
+1209,Programming Fundamentals,3,BS (Computer Science),IBA
+4713,Technology Management,3,BS (Computer Science),IBA
+4734,Enterprise Solutions Architecture,3,BS (Computer Science),IBA
+4717,Telecommunication Systems,3,BS (Computer Science),IBA
+4751,Advanced Software Analysis and Design,3,BS (Computer Science),IBA
+4722,Mobile Communication,3,BS (Computer Science),IBA
+4752,CMMI,3,BS (Computer Science),IBA
+4724,Desktop Publishing,3,BS (Computer Science),IBA
+4753,Formal Methods,3,BS (Computer Science),IBA
+4725,Telecommunications Planning and Design,3,BS (Computer Science),IBA
+4754,Project Management,3,BS (Computer Science),IBA
+4733,Broadband Communications,3,BS (Computer Science),IBA
+4755,System Analysis and Design,3,BS (Computer Science),IBA
+4772,Advanced Networking,3,BS (Computer Science),IBA
+4811,CASE Tools,3,BS (Computer Science),IBA
+4773,Business Management for IT Entrepreneur,3,BS (Computer Science),IBA
+4818,Systems Development Case Studies,3,BS (Computer Science),IBA
+4774,Decision Support System,3,BS (Computer Science),IBA
+4851,Advanced Software Engineering,3,BS (Computer Science),IBA
+4775,Education Technology,3,BS (Computer Science),IBA
+4852,Object Oriented Software Engineering,3,BS (Computer Science),IBA
+4776,Human Computer Interface,3,BS (Computer Science),IBA
+4853,Software Engineering Tools and Building Blocks,3,BS (Computer Science),IBA
+4777,Information Security and Cryptography,3,BS (Computer Science),IBA
+4854,Systems Development Methodology,3,BS (Computer Science),IBA
+4778,Network Administration,3,BS (Computer Science),IBA
+4855,UML Modeling,3,BS (Computer Science),IBA
+4779,Network Transport Protocols,3,BS (Computer Science),IBA
+4781,Telecommunication System Analysis,3,BSCS,IBA
+4782,Wireless Network,3,BS (Computer Science),IBA
+4715,Compiler Construction,3,BS (Computer Science),IBA
+4814,e-Marketing Strategies,3,BS (Computer Science),IBA
+4756,Advanced Compiler Design-I,3,BS (Computer Science),IBA
+4815,Technopreneurnship,3,BS (Computer Science),IBA
+4757,Advanced Computer Architecture,3,BS (Computer Science),IBA
+4818,Enterprise Information Systems,3,BS (Computer Science),IBA
+4758,Computer Aided Instructions,3,BS (Computer Science),IBA
+4824,Telecommunications Management,3,BS (Computer Science),IBA
+4759,Control Systems and Robotics,3,BS (Computer Science),IBA
+4873,Business Information Systems Management,3,BS (Computer Science),IBA
+4761,Digital Signal Processing,3,BS (Computer Science),IBA
+4874,e-Commerce Data Mining Techniques,3,BS (Computer Science),IBA
+4762,Distributed Systems Computing,3,BS (Computer Science),IBA
+4875,Fundamentals of e-Commerce,3,BS (Computer Science),IBA
+4763,Intelligent Systems Design,3,BS (Computer Science),IBA
+4876 ,Geographical Information Systems,3,BS (Computer Science),IBA
+4764,Language Processors,3,BS (Computer Science),IBA
+4877,Information Technology Management,3,BS (Computer Science),IBA
+4765,Mathematical Reasoning,3,BS (Computer Science),IBA
+4878,Mechatronic,3,BS (Computer Science),IBA
+4766,Multimedia and Hypermedia Systems,3,BS (Computer Science),IBA
+4879,Network Performance Evaluation,3,BS (Computer Science),IBA
+4767,Programming Techniques for Al Prolog,3,BS (Computer Science),IBA
+4881,Rich Internet Applications,3,BS (Computer Science),IBA
+4769,Real Time Operating Systems,3,BS (Computer Science),IBA
+4882,Virtual Reality,3,BS (Computer Science),IBA
+4769,Switching and Fault Diagnosis,3,BS (Computer Science),IBA
+4771,Web Based Education Systems,3,BS (Computer Science),IBA
+4817,Problem Solving & Advanced Algorithms Analysis,3,BS (Computer Science),IBA
+4718,Media Production,3,BS (Computer Science),IBA
+4821,OpenGL Programming and DirectX,4,BS (Computer Science),IBA
+4721,Principles of Art and Aesthetics,3,BS (Computer Science),IBA
+4856,Advanced Compiler Design-II,4,BS (Computer Science),IBA
+4783,3D Game Engine Programming,3,BS (Computer Science),IBA
+4857,Advanced Computer Graphics,3,BS (Computer Science),IBA
+4784,Accounting,3,BS (Computer Science),IBA
+4859,Computer Vision,3,BS (Computer Science),IBA
+4785,Bioethical Issues,3,BS (Computer Science),IBA
+4861,Decision Support System Architecture,3,BS (Computer Science),IBA
+4786,Data Warehousing,3,BS (Computer Science),IBA
+4862,Digital Image Processing,3,BS (Computer Science),IBA
+4787,Design Verification,3,BS (Computer Science),IBA
+4863,Digital System Design,3,BS (Computer Science),IBA
+4788,Foreign Languages,3,BS (Computer Science),IBA
+4864,Embedded Systems,3,BS (Computer Science),IBA
+4789,Integrated Circuit,3,BS (Computer Science),IBA
+4865,Knowledge Engineering,3,BS (Computer Science),IBA
+4791,Multimedia Database,3,BS (Computer Science),IBA
+4866,Machine Learning,4,BS (Computer Science),IBA
+4792,Management Principles,3,BS (Computer Science),IBA
+4867,Measurement of Learning,3,BS (Computer Science),IBA
+4793,Object Oriented Databases,3,BS (Computer Science),IBA
+4868,Neural Computing,3,BS (Computer Science),IBA
+4794,Protein Bioinformatics,3,BS (Computer Science),IBA
+4869,Parallel Processing,3,BS (Computer Science),IBA
+4822,3D Modeling and Animation,3,BS (Computer Science),IBA
+4871,Theory of Programming Languages,3,BS (Computer Science),IBA
+4823,Database Administration,3,BS (Computer Science),IBA
+4872,Web Logic,3,BS (Computer Science),IBA
+BSCS-301,Introduction to Computer Science - I,3,BS (Computer Science),UBIT
+BSCS-3000,Introduction to Computer Science - I,3,BS (Computer Science),UBIT
+BSCS-303,Mathematics - I (Calculus),3,BS (Computer Science),UBIT
+BSCS-305,Statistics and Data Analysis,3,BS (Computer Science),UBIT
+BSCS-307,Statistics and Data Analysis,3,BS (Computer Science),UBIT
+BSCS-309,English - I,3,BS (Computer Science),UBIT
+BSCS-311,Islamic Learning & Pakistan Studies or Ethics & Pakistan Studies,3,BS (Computer Science),UBIT
+BSCS-302,Introduction to Computer Science - II,3,BS (Computer Science),UBIT
+BSCS-304,Mathematics - II (Differential Equations),3,BS (Computer Science),UBIT
+BSCS-306,Probability and Statistical Methods,3,BS (Computer Science),UBIT
+BSCS-308,Physics - II (Electricity and Magnetism),3,BS (Computer Science),UBIT
+BSCS-310,English - II,3,BS (Computer Science),UBIT
+BSCS-312,Urdu,3,BS (Computer Science),UBIT
+BSCS-401,Digital Computer Design Fundamentals,3,BS (Computer Science),UBIT
+BSCS-403,Assembly Language Programming,3,BS (Computer Science),UBIT
+BSCS-405,Mathematics - III (Linear Algebra and Analytical Geometry),3,BS (Computer Science),UBIT
+BSCS-407,Materials Semiconductors and Devices,3,BS (Computer Science),UBIT
+BSCS-409,Discrete Mathematics,3,BS (Computer Science),UBIT
+BSCS-411,Object Oriented Programming,3,BS (Computer Science),UBIT
+BSCS-413,Data Structures,3,BS (Computer Science),UBIT
+BSCS-402,System Design with Microprocessors,3,BS (Computer Science),UBIT
+BSCS-404,Mathematics - IV (Numerical Computing),3,BS (Computer Science),UBIT
+BSCS-406,Electronics,3,BS (Computer Science),UBIT
+BSCS-410,Software Engineering & Project Management,3,BS (Computer Science),UBIT
+BSCS-412,Communication Skills and Report Writing,3,BS (Computer Science),UBIT
+BSCS-514,Theory of Computer Science,3,BS (Computer Science),UBIT
+BSCS-501,Data Communication and Networking - I,3,BS (Computer Science),UBIT
+BSCS-501,Stochastic Processes and Inference,3,BS (Computer Science),UBIT
+BSCS-501,Operations Research - I,3,BS (Computer Science),UBIT
+BSCS-501,Database Systems,3,BS (Computer Science),UBIT
+BSCS-501,Computer Organization and Architecture,3,BS (Computer Science),UBIT
+BSCS-501,Advanced Numerical Analysis,3,BS (Computer Science),UBIT
+BSCS-501,Artificial Intelligence,3,BS (Computer Science),UBIT
+BSCS-501,System Analysis & Design,3,BS (Computer Science),UBIT
+BSCS-501,Business Programming Language,3,BS (Computer Science),UBIT
+BSCS-502,Concepts of Operating Systems,3,BS (Computer Science),UBIT
+BSCS-502,Compiler Construction - I,3,BS (Computer Science),UBIT
+BSCS-502,Modeling and Simulation,3,BS (Computer Science),UBIT
+BSCS-502,Operations Research - II,3,BS (Computer Science),UBIT
+BSCS-502,Microcomputer Design and Interfacing - I,3,BS (Computer Science),UBIT
+BSCS-502,Data Communication and Networking - II,3,BS (Computer Science),UBIT
+BSCS-502,Computer Graphics,3,BS (Computer Science),UBIT
+BSCS-502,Advanced Software Engineering,3,BS (Computer Science),UBIT
+BSCS-502,Expert Systems,3,BS (Computer Science),UBIT
+BSCS-601,Theory of Operating Systems,3,BS (Computer Science),UBIT
+BSCS-601,Compiler Construction - II,3,BS (Computer Science),UBIT
+BSCS-601,Advanced Computer Graphics,3,BS (Computer Science),UBIT
+BSCS-601,Financial Accounting,3,BS (Computer Science),UBIT
+BSCS-601,Microcomputer Design & Interfacing - II,3,BS (Computer Science),UBIT
+BSCS-601,Parallel Computing,3,BS (Computer Science),UBIT
+BSCS-601,Management Information System,3,BS (Computer Science),UBIT
+BSCS-601,VLSI Design Techniques,3,BS (Computer Science),UBIT
+BSCS-601,Internet Application Development,3,BS (Computer Science),UBIT
+BSCS-602,Operating System Case Study,3,BS (Computer Science),UBIT
+BSCS-602,Natural Language Processing,3,BS (Computer Science),UBIT
+BSCS-602,Distributed Database Systems,3,BS (Computer Science),UBIT
+BSCS-602,Design and Analysis of Algorithms,3,BS (Computer Science),UBIT
+BSCS-602,Financial Management,3,BS (Computer Science),UBIT
+BSCS-602,Multimedia Systems,3,BS (Computer Science),UBIT
+BSCS-602,Computational Linear Algebra,3,BS (Computer Science),UBIT
+CS(SE)-301,Calculus and Analytical Geometry - I,3,BS(Software Engineering),UBIT
+CS(SE)-303,Computer Logic Design and Computer Organization,3,BS (Software Engineering),UBIT
+CS(SE)-305,Introduction to C/C++ Language,4,BS (Software Engineering),UBIT
+CS(SE)-307,Islamic Studies,2,BS (Software Engineering),UBIT
+CS(SE)-309,Probability and Statistics,3,BS (Software Engineering),UBIT
+CS(SE)-302,Business Communication Skills,3,BS (Software Engineering),UBIT
+CS(SE)-304,Pakistan Studies,3,BS (Software Engineering),UBIT
+CS(SE)-306,Calculus and Analytical Geometry - II,3,BS (Software Engineering),UBIT
+CS(SE)-308,Linear Algebra,3,BS (Software Engineering),UBIT
+CS(SE)-310,Object Oriented Concepts using JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-312,Software Engineering - I,4,BS (Software Engineering),UBIT
+CS(SE)-401,Advanced JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-403,Relational Database Management System (RDBMS),3,BS (Software Engineering),UBIT
+CS(SE)-405,Data Structure using JAVA,4,BS (Software Engineering),UBIT
+CS(SE)-407,Operations Research,3,BS (Software Engineering),UBIT
+CS(SE)-409,Discrete Mathematics,3,BS (Software Engineering),UBIT
+CS(SE)-411,Ordinary Differential Equations,3,BS (Software Engineering),UBIT
+CS(SE)-402,Assembly Language,4,BS (Software Engineering),UBIT
+CS(SE)-404,Operating Systems,4,BS (Software Engineering),UBIT
+CS(SE)-406,Business Economics,3,BS (Software Engineering),UBIT
+CS(SE)-408,Numerical Analysis,3,BS (Software Engineering),UBIT
+CS(SE)-410,Business Communication Skills - II,3,BS (Software Engineering),UBIT
+CS(SE)-501,Compiler Construction,3,BS (Software Engineering),UBIT
+CS(SE)-503,Computer Architecture,3,BS (Software Engineering),UBIT
+CS(SE)-505,Organization Behaviour,3,BS (Software Engineering),UBIT
+CS(SE)-507,Practical Networking and Data Communication,3,BS (Software Engineering),UBIT
+CS(SE)-509,Software Engineering - II,4,BS (Software Engineering),UBIT
+CS(SE)-502,Advance JAVA and Internet Programming,4,BS (Software Engineering),UBIT
+CS(SE)-506,Software Project Management,4,BS (Software Engineering),UBIT
+CS(SE)-508,Marketing Management,3,BS (Software Engineering),UBIT
+CS(SE)-601,Distributed Computing,3,BS (Software Engineering),UBIT
+CS(SE)-603,Software Process Management,4,BS (Software Engineering),UBIT
+CS(SE)-605,Computerized Accounting,3,BS (Software Engineering),UBIT
+CS(SE)-602,Psychology,3,BS (Software Engineering),UBIT
+CS(SE)-604,Software Testing,4,BS (Software Engineering),UBIT
+PHL-305,Islamic Idealogy-Pakistan Studies,2,D.Pharm,Pharmacy
+PHL-308,Physiology & Histology II,3,D.Pharm,Pharmacy
+PHL-307,Physiology & Histology I,3,D.Pharm,Pharmacy
+PHL-310,Pharmaceutical Biochemistry II,3,D.Pharm,Pharmacy
+PHL-309,Pharmaceutical Biochemistry I,3,D.Pharm,Pharmacy
+PHL-314,Pharmacology - Anatomy,2,D.Pharm,Pharmacy
+PHL-311,Pharmaceutical Biochemistry (lab),3,D.Pharm,Pharmacy
+PHL-407,Physiology & Histology (Lab),3,D.Pharm,Pharmacy
+PHL-410,Systemic Pharmacology - I,3,D.Pharm,Pharmacy
+PHL-409,Pharmacology & Therspeutics,3,D.Pharm,Pharmacy
+PHL-413,Pharmacology - Pathology,2,D.Pharm,Pharmacy
+PHL-507,Pharmacology - Systemic Pharmacology - II,3,D.Pharm,Pharmacy
+PHL-510,Pharmacology - Pharmacology Lab - I,3,D.Pharm,Pharmacy
+PHT-509,Pharmacology - Pathology (Lab),2,D.Pharm,Pharmacy
+PHL-609,Pharmacology - Systemic Pharmacology - III,3,D.Pharm,Pharmacy
+PHL-612,Pharmacology Lab - II,3,D.Pharm,Pharmacy
+PHL-711,Pharmacology - Clinical Pharmacology,2,D.Pharm,Pharmacy
+PHL-712,Pharmacology - Toxicology,2,D.Pharm,Pharmacy
+PHT-301,Fundamentals of Pharmacy Theory,3,D.Pharm,Pharmacy
+PHT-302,Pharmaceutical Dosage Forms Theory (I),3,D.Pharm,Pharmacy
+PHT-401,Pharmaceutical Dosage Forms Theory (II),3,D.Pharm,Pharmacy
+PHT-402,Pharmaceutical Dosage Forms (Practical),3,D.Pharm,Pharmacy
+PHT-403,Pharmaceutical Microbiology (I),3,D.Pharm,Pharmacy
+PHT-404,Pharmaceutical Microbiology (II),3,D.Pharm,Pharmacy
+PHT-501,Pharmaceutical Microbiology (Practical),3,D.Pharm,Pharmacy
+PHT-502,Physical Pharmacy,3,D.Pharm,Pharmacy
+PHT-513,Computer Application in Pharmacy (Practical),2,D.Pharm,Pharmacy
+PHT-504,Industrial Pharmacy (I) Pharmaceutical Unit Operations,3,D.Pharm,Pharmacy
+PHT-601,Physical Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-602,Hospital Pharmacy,3,D.Pharm,Pharmacy
+PHT-603,Industrial Pharmacy (II) Pharmaceutical Engineering,3,D.Pharm,Pharmacy
+PHT-604,Industrial Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-605,Bio-Pharmaceutics and Pharmacokinetics (I),3,D.Pharm,Pharmacy
+PHT-606,Clinical Pharmacokinetics (II),3,D.Pharm,Pharmacy
+PHT-613,Pharmaceutical Technology,2,D.Pharm,Pharmacy
+PHT-614,Pharmaceutical Technology (Practical),2,D.Pharm,Pharmacy
+PHT-701,Clinical Pharmacy (I) Pharmaceutical and Therapeutic Care,3,D.Pharm,Pharmacy
+PHT-702,Clinical Pharmacy (II),3,D.Pharm,Pharmacy
+PHT-703,Forensic Pharmacy,3,D.Pharm,Pharmacy
+PHT-704,Pharmaceutical Management and Marketing,3,D.Pharm,Pharmacy
+PHT-705,Prescription Pharmacy and Community Pharmacy,3,D.Pharm,Pharmacy
+PHT-706,Prescription Pharmacy (Practical),3,D.Pharm,Pharmacy
+PHT-708,Pharmaceutical Quality Control and Quality Assurance,3,D.Pharm,Pharmacy
+1101,Introduction to Accounting,3,BBA,KUBS
+1102,Microeconomics,3,BBA,KUBS
+1106,Islamiat and Pakistan Studies/Humanities,3,BBA,KUBS
+1105,English Writing Skills,3,BBA,KUBS
+1108,IT in Business,3,BBA,KUBS
+1201,Financial Accounting,3,BBA,KUBS
+1109,Personal Management and Communication,3,BBA,KUBS
+1203,Management Principles,3,BBA,KUBS
+1204,Maths for Business,3,BBA,KUBS
+2307,Sociology,3,BBA,KUBS
+1206,Oral Communication and Presentation Skills,3,BBA,KUBS
+2312,Human Behavior,3,BBA,KUBS
+1202,Macroeconomics,3,BBA,KUBS
+2311,Business Statistics,3,BBA,KUBS
+1211,Logic and Critical Thinking,3,BBA,KUBS
+2401,Money and Banking,3,BBA,KUBS
+2301,Introduction to Business Finance,3,BBA,KUBS
+2402,Retail Management,3,BBA,KUBS
+2303,Marketing Principles,3,BBA,KUBS
+2406,Business and Electronic Communication,3,BBA,KUBS
+2403,Business Ethics,3,BBA,KUBS
+3504,Organizational Behavior,3,BBA,KUBS
+2408,Cost Accounting,3,BBA,KUBS
+3507,Consumer Behavior,3,BBA,KUBS
+3506,Financial Markets and Institutions,3,BBA,IBKUBS
+3601,Financial Management,3,BBA,KUBS
+3508,Media Management,3,BBA,KUBS
+3602,Marketing Management,3,BBA,KUBS
+3605,Statistical Inference,3,BBA,KUBS
+3607,Operations Management,3,BBA,KUBS
+4706,Development Economics,3,BBA,KUBS
+3603,Business Research Methods,3,BBA,KUBS
+4801,Law and Taxation,3,BBA,KUBS
+4804,Human Resource Management,3,BBA,KUBS
+3519,Current Affairs,3,BBA,KUBS
+3506,Foreign Languages,3,BBA,KUBS
+3619,Enterprise Management,3,BBA,KUBS
+3614,Business Analysis and Forecasting,3,BBA,KUBS
+4707,Marketing Research,3,BBA,KUBS
+4701,Islamic Banking and Finance,3,BBA,KUBS
+4842,Graphic Design for Multimedia,3,BBA,KUBS
+3613,World Economy,3,BBA,KUBS
