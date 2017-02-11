@@ -1,14 +1,23 @@
 package com.ums.entities;
 
 import com.ums.buildings.AdminBlock;
-import com.ums.buildings.IBA;
+import com.ums.buildings.KUBS;
 import com.ums.buildings.Pharmacy;
 import com.ums.buildings.UBIT;
+import com.ums.chathandler.ChatClient;
+import com.ums.chathandler.ChatServer;
+import com.ums.driver.Driver;
+import com.ums.driver.StudentStageController;
 import com.ums.lists.CourseList;
+import javafx.application.Platform;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Student extends AccountHolder {
+
+    public Server server;
+    public Client client;
 
     public CourseList courseList;
     String field;
@@ -182,14 +191,14 @@ public class Student extends AccountHolder {
                         + "\t" + "Field: " + UBIT.courseList.courses.get(i).getField());
             }
 
-        } else if (this.getDepartment().equalsIgnoreCase("IBA")) {
-            for (int i = 0; i < IBA.courseList.courses.size(); i++) {
-                if ((IBA.courseList.courses.get(i).getField().equals("BBA"))
+        } else if (this.getDepartment().equalsIgnoreCase("KUBS")) {
+            for (int i = 0; i < KUBS.courseList.courses.size(); i++) {
+                if ((KUBS.courseList.courses.get(i).getField().equals("BBA"))
                         && (this.getField().equals("BBA")))
-                    info += ("\n" + "ID: " + IBA.courseList.courses.get(i).getID()
-                            + "\t" + "Name: " + IBA.courseList.courses.get(i).getName()
-                            + "\t" + "Credit hours: " + IBA.courseList.courses.get(i).getCreditHours()
-                            + "\t" + "Field: " + IBA.courseList.courses.get(i).getCreditHours());
+                    info += ("\n" + "ID: " + KUBS.courseList.courses.get(i).getID()
+                            + "\t" + "Name: " + KUBS.courseList.courses.get(i).getName()
+                            + "\t" + "Credit hours: " + KUBS.courseList.courses.get(i).getCreditHours()
+                            + "\t" + "Field: " + KUBS.courseList.courses.get(i).getCreditHours());
             }
         } else {
             for (int i = 0; i < Pharmacy.courseList.courses.size(); i++)
@@ -212,7 +221,7 @@ public class Student extends AccountHolder {
                     + "\n\nGPA: " + this.getCGPA();
 
             return info;
-        } else if (this.getDepartment().equals("IBA") && this.getField().equals("BS (Computer Science)")) {
+        } else if (this.getDepartment().equals("KUBS") && this.getField().equals("BS (Computer Science)")) {
             info += "\n\n\t\t\tMarks sheet for 1st semester.\n";
             info += "\nCalculus and Analytical Geometry: " + this.marks[0] + "\nObject Oriented Programming: " + this.marks[1]
                     + "\nPhysics-I: " + this.marks[2] + "\nTechnical and Business Writing: " + this.marks[3]
@@ -220,7 +229,7 @@ public class Student extends AccountHolder {
                     + "\n\nGPA: " + this.getCGPA();
 
             return info;
-        } else if (this.getDepartment().equals("IBA") && this.getField().equals("BBA")) {
+        } else if (this.getDepartment().equals("KUBS") && this.getField().equals("BBA")) {
             info += "\n\n\t\t\tMarks sheet for 1st semester.\n";
             info += "\nIntroduction to Accounting: " + this.marks[0] + "\nEnglish Writing Skills: " + this.marks[1]
                     + "\nMicroeconomics: " + this.marks[2] + "\nIT in Business: " + this.marks[3]
@@ -262,5 +271,170 @@ public class Student extends AccountHolder {
 
     public void dropOut() throws IOException {
         AdminBlock.deleteStudentFromFile(this.getID());
+    }
+
+    @Override
+    public void startServer(int port) {
+        Thread thread = new Thread(() -> {
+            try {
+                server = new Server(port);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        thread.start();
+    }
+
+    @Override
+    public void communicate(int port) {
+        Thread thread = new Thread(() -> {
+            try {
+                client = new Client(port);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        thread.start();
+    }
+
+    public class Server extends ChatServer {
+
+        public Server(int port) throws IOException {
+            super(port);
+            setStatus(true);
+            chat();
+        }
+
+        @Override
+        public void startGUIThread() {
+            Platform.runLater(() -> StudentStageController.startServerMessageGUI());
+        }
+
+        @Override
+        public void chat() throws IOException {
+            setSender(Driver.university.tr.getName());
+
+            startReadThread();
+            startWriteThread();
+        }
+
+        @Override
+        public void startReadThread() {
+            Thread thread = new Thread(() -> {
+                try {
+                    receive = reader.readLine();
+                    System.out.println(receive);
+                    receiver = receive.substring(28);
+                    System.out.println("Start chatting.");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                while (true) {
+                    try {
+                        if ((receive = reader.readLine()) != null) {
+                            System.out.println(receive);
+                            StudentStageController.messageArea.appendText(receiver + ": " + receive + "\n");
+                        }
+                    } catch (IOException e) {
+                        System.out.println("Connection closed.");
+                        isConnected = false;
+                        break;
+                    }
+                }
+            });
+
+            thread.start();
+        }
+
+        @Override
+        public void startWriteThread() {
+            Thread thread = new Thread(() -> {
+                Scanner sc = new Scanner(System.in);
+                while (true) {
+                    send = sc.nextLine();
+                    writer.println(send);
+                    StudentStageController.messageArea.appendText(sender + ": " + send + "\n");
+                    writer.flush();
+                }
+            });
+
+            thread.start();
+        }
+    }
+
+    public class Client extends ChatClient {
+
+        public Client(int port) throws IOException {
+            super(port);
+            setStatus(true);
+            chat();
+        }
+
+        @Override
+        public void chat(){
+            for (int i=0; i<AdminBlock.teacherList.size(); i++) {
+                if (port == AdminBlock.teacherList.get(i).getPort()) {
+                    System.out.println("Connection established with " + AdminBlock.teacherList.get(i).getName());
+                    receiver = AdminBlock.teacherList.get(i).getName();
+                }
+            }
+
+            for (int i=0; i<AdminBlock.studentList.students.size(); i++) {
+                if (port == AdminBlock.studentList.students.get(i).getPort()) {
+                    System.out.println("Connection established with " + AdminBlock.studentList.students.get(i).getName());
+                    receiver = AdminBlock.studentList.students.get(i).getName();
+                }
+            }
+
+            sender = Driver.university.st.getName();
+
+            System.out.println("Start chatting.");
+
+            startReadThread();
+            startWriteThread();
+
+            System.out.println("Start chatting.");
+        }
+
+        @Override
+        public void startReadThread() {
+            Thread thread = new Thread(() -> {
+                while (true) {
+                    try {
+                        if ((receive = reader.readLine()) != null) {
+                            System.out.println(receive);
+                            StudentStageController.messageArea.appendText(receiver + ": " + receive + "\n");
+                        }
+                    } catch (IOException e) {
+                        System.out.println("Connection closed.");
+                        isConnected = false;
+                        break;
+                    }
+                }
+            });
+
+            thread.start();
+        }
+
+        @Override
+        public void startWriteThread() {
+            Thread thread = new Thread(() -> {
+                Scanner sc = new Scanner(System.in);
+                send = "Connection established with " + Driver.university.st.getName();
+                writer.println(send);
+                writer.flush();
+
+                while (true) {
+                    send = sc.nextLine();
+                    writer.println(send);
+                    StudentStageController.messageArea.appendText(sender + ": " + send + "\n");
+                    writer.flush();
+                }
+            });
+
+            thread.start();
+        }
     }
 }

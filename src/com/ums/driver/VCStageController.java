@@ -40,9 +40,11 @@
 package com.ums.driver;
 
 import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXRadioButton;
 import com.jfoenix.controls.JFXTextArea;
 import com.jfoenix.controls.JFXTextField;
 import com.ums.buildings.AdminBlock;
+import com.ums.buildings.Library;
 import com.ums.entities.AccountHolder;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -50,6 +52,8 @@ import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Paint;
 import javafx.scene.text.Text;
@@ -210,7 +214,7 @@ public class VCStageController implements Initializable, ControlledScreen {
 
     @FXML
     private void viewDepartments() {
-        area.setText(Driver.university.ubit + "\n\n" + Driver.university.iba + "\n\n"
+        area.setText(Driver.university.ubit + "\n\n" + Driver.university.kubs + "\n\n"
                 + Driver.university.pharmacy);
         sort3.setDisable(true);
         sort1.setDisable(true);
@@ -489,5 +493,162 @@ public class VCStageController implements Initializable, ControlledScreen {
                 e.printStackTrace();
             }
         }
+    }
+
+    @FXML
+    private void message() {
+        Paint green = Paint.valueOf("#016F61");
+        Paint white = Paint.valueOf("#ffffff");
+
+        Label lab1 = new Label("Initiate chat with");
+        HBox hbox = new HBox();
+        hbox.setStyle("-fx-background: #FFFFFF;");
+        ToggleGroup group = new ToggleGroup();
+        JFXRadioButton r1 = new JFXRadioButton("Dean");
+        JFXRadioButton r2 = new JFXRadioButton("Chief Librarian");
+        r1.setToggleGroup(group);
+        r1.setUserData("Dean");
+        r2.setToggleGroup(group);
+        r2.setUserData("Chief Librarian");
+        group.selectToggle(r1);
+
+        hbox.getChildren().addAll(r1, r2);
+
+        Stage stage = new Stage();
+        stage.setTitle("UMS - Message");
+        VBox layout = new VBox(10);
+        JFXButton butt = new JFXButton("Confirm");
+        butt.setStyle("-fx-background-color: #016F61");
+        butt.setTextFill(white);
+
+        Label lab2 = new Label();
+        JFXTextField textField = new JFXTextField();
+        textField.setPromptText("Enter ID of the User");
+        textField.setFocusColor(green);
+        layout.setPadding(new Insets(10, 10, 10, 10));
+        layout.getChildren().addAll(lab1, hbox, textField, butt, lab2);
+        layout.setStyle("-fx-background: #FFFFFF;");
+        Scene scene = new Scene(layout, 400, 170);
+        stage.setScene(scene);
+        stage.show();
+
+        butt.setOnAction(event -> messageOK(textField.getText(), group.getSelectedToggle().getUserData().toString(), stage, lab2));
+    }
+
+    private void messageOK(String id, String toggle, Stage stage, Label lab2) {
+
+        if (id.equals("Enter ID of the User") || id.equals(""))
+            lab2.setText("Please enter ID");
+
+        else if (toggle.equals("Dean")) {
+            for (int i=0; i<AdminBlock.deanList.size(); i++) {
+                if (AdminBlock.deanList.get(i).getID().equals(id)) {
+                    AdminBlock.viceChancellor.communicate(AdminBlock.deanList.get(i).getPort());
+                    stage.close();
+                    startClientMessageGUI();
+                }
+                else {
+                    lab2.setText("User with this ID does not exist.");
+                }
+            }
+        }
+
+        else {
+            if (Library.chiefLibrarian.getID().equals(id)) {
+                AdminBlock.viceChancellor.communicate(Library.chiefLibrarian.getPort());
+                stage.close();
+                startClientMessageGUI();
+            } else {
+                lab2.setText("User with this ID does not exist.");
+            }
+        }
+    }
+
+    public static JFXTextArea messageArea = new JFXTextArea();
+    public static JFXTextField messageField = new JFXTextField();
+    public static JFXButton messageButt = new JFXButton("Send");
+
+    public static void startClientMessageGUI() {
+        Paint green = Paint.valueOf("#016F61");
+        Paint white = Paint.valueOf("#ffffff");
+
+        Stage stage = new Stage();
+        stage.setTitle("UMS - Message");
+        VBox layout = new VBox(10);
+
+        messageArea.setFocusColor(green);
+        messageArea.setEditable(false);
+        messageArea.setPrefSize(430, 210);
+
+        messageField.setPromptText("Enter message.");
+        messageField.setFocusColor(green);
+        messageField.setPrefWidth(450);
+
+        messageButt.setStyle("-fx-background-color: #016F61");
+        messageButt.setTextFill(white);
+        messageButt.setPrefWidth(65);
+
+        HBox hbox = new HBox();
+        hbox.setSpacing(20);
+        hbox.getChildren().addAll(messageField, messageButt);
+
+        layout.setStyle("-fx-background: #FFFFFF;");
+        layout.setPadding(new Insets(5, 5, 5, 5));
+
+        layout.getChildren().addAll(messageArea, hbox);
+
+        Scene scene = new Scene(layout, 550, 265);
+        stage.setScene(scene);
+        stage.show();
+
+        messageButt.setOnAction(event -> sendClientMessage());
+    }
+
+    private static void sendClientMessage() {
+        AdminBlock.viceChancellor.client.writer.println(messageField.getText());
+        messageArea.appendText(AdminBlock.viceChancellor.getName() + ": " + messageField.getText() + "\n");
+        messageField.clear();
+    }
+
+    public static void startServertMessageGUI() {
+        Paint green = Paint.valueOf("#016F61");
+        Paint white = Paint.valueOf("#ffffff");
+
+        Stage stage = new Stage();
+        stage.setTitle("UMS - Message");
+        VBox layout = new VBox(10);
+
+        messageArea.setFocusColor(green);
+        messageArea.setEditable(false);
+        messageArea.setPrefSize(430, 210);
+
+        messageField.setPromptText("Enter message.");
+        messageField.setFocusColor(green);
+        messageField.setPrefWidth(450);
+
+        messageButt.setStyle("-fx-background-color: #016F61");
+        messageButt.setTextFill(white);
+        messageButt.setPrefWidth(65);
+
+        HBox hbox = new HBox();
+        hbox.setSpacing(20);
+        hbox.getChildren().addAll(messageField, messageButt);
+
+        layout.setStyle("-fx-background: #FFFFFF;");
+        layout.setPadding(new Insets(5, 5, 5, 5));
+
+        layout.getChildren().addAll(messageArea, hbox);
+
+        Scene scene = new Scene(layout, 550, 265);
+        stage.setScene(scene);
+        stage.show();
+
+        messageButt.setOnAction(event -> sendServerMessage());
+    }
+
+    private static void sendServerMessage() {
+        AdminBlock.viceChancellor.server.writer.println(messageField.getText());
+        messageArea.appendText(AdminBlock.viceChancellor.getName() + ": " + messageField.getText() + "\n");
+        messageField.clear();
     }
 }

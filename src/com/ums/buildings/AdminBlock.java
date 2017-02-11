@@ -1,5 +1,6 @@
 package com.ums.buildings;
 
+import com.sun.javaws.security.Resource;
 import com.ums.entities.AccountHolder.Position;
 import com.ums.entities.ChiefLibrarian;
 import com.ums.entities.Dean;
@@ -13,6 +14,7 @@ import com.ums.lists.EmployeeList;
 import com.ums.lists.StudentList;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -61,7 +63,7 @@ public class AdminBlock extends Building {
     }
 
     public static ViceChancellor makeVC() throws IOException {
-        FileRead reader = new FileRead("vc.txt");
+        FileRead reader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\vc.txt");
         ArrayList<String> file = reader.openFile();
 
         String[] temp = new String[4];
@@ -81,7 +83,7 @@ public class AdminBlock extends Building {
     }
 
     public static ChiefLibrarian makeLB() throws IOException {
-        FileRead reader = new FileRead("lb.txt");
+        FileRead reader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\lb.txt");
         ArrayList<String> file = reader.openFile();
 
         String[] temp = new String[7];
@@ -109,7 +111,7 @@ public class AdminBlock extends Building {
         studentList = new StudentList();
         courseList = new CourseList();
 
-        FileRead empListReader = new FileRead("employeeList.txt");
+        FileRead empListReader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\employeeList.txt");
         ArrayList<String> file = empListReader.openFile();
 
         for (int i = 0; i < file.size(); i++) {
@@ -120,7 +122,7 @@ public class AdminBlock extends Building {
                     Integer.parseInt(temp[6]), Position.valueOf(temp[7]), Integer.parseInt(temp[8]));
         }
 
-        FileRead stdListReader = new FileRead("studentList.txt");
+        FileRead stdListReader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\studentList.txt");
         file = stdListReader.openFile();
 
         for (int i = 0; i < file.size(); i++) {
@@ -175,7 +177,7 @@ public class AdminBlock extends Building {
                 studentList.students.get(k).setCGPA(0.00);
         }
 
-        FileRead coListReader = new FileRead("courseList.txt");
+        FileRead coListReader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\courseList.txt");
         file = coListReader.openFile();
 
         for (int i = 0; i < file.size(); i++) {
@@ -214,7 +216,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return true;
@@ -234,7 +236,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return true;
@@ -269,7 +271,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return isSuccessful;
@@ -293,7 +295,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return isSuccessful;
@@ -350,7 +352,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return isSuccessful;
@@ -379,7 +381,7 @@ public class AdminBlock extends Building {
         readFromAllFiles();
 
         UBIT.fetchAll();
-        IBA.fetchAll();
+        KUBS.fetchAll();
         Pharmacy.fetchAll();
 
         return isSuccessful;
@@ -393,7 +395,7 @@ public class AdminBlock extends Building {
     }
 
     public static void readSelectedCourses() throws IOException {
-        FileRead reader = new FileRead("selectedCourseList.txt");
+        FileRead reader = new FileRead("D:\\Java Workspace\\IntelliJ Workspace\\UMS 1.4\\src\\selectedCourseList.txt");
         ArrayList<String> file = reader.openFile();
 
         for (int i = 0; i < file.size(); i++) {

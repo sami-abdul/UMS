@@ -7,6 +7,7 @@ public abstract class AccountHolder {
     public Position position;
     protected String id, name, password;
     private int port;
+
     public AccountHolder() {
         this.id = null;
         this.name = null;
@@ -66,6 +67,10 @@ public abstract class AccountHolder {
     public abstract boolean login(String id, String password);
 
     public abstract void changePassword(String pass) throws IOException;
+
+    public abstract void startServer(int port);
+
+    public abstract void communicate(int port);
 
     public enum Position {VICE_CHANCELLOR, DEAN, TEACHER, STUDENT, CHIEF_LIBRARIAN}
 }

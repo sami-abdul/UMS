@@ -109,12 +109,13 @@ public class LoginController implements Initializable, ControlledScreen {
                             Driver.university.st.setMarks(AdminBlock.studentList.students.get(i).getMarks());
                             Driver.university.st.setCourseList(AdminBlock.studentList.students.get(i).getCourseList());
                             Driver.university.st.setPort(AdminBlock.studentList.students.get(i).getPort());
+                            Driver.university.st.server = AdminBlock.studentList.students.get(i).server;
                         }
                     }
                     label.setText("");
+                    Driver.university.st.startServer(Driver.university.st.getPort());
                     Driver.mainContainer.loadScreen(Driver.screen3ID, Driver.screen3File);
                     controller.setScreen(Driver.screen3ID);
-                    System.out.println(Driver.university.st.getPort());
                 } else
                     label.setText("ID or Password incorrect");
             } else if (choices.getValue().equals("Teacher")) {
@@ -130,12 +131,13 @@ public class LoginController implements Initializable, ControlledScreen {
                             Driver.university.tr.setSalary(AdminBlock.teacherList.get(i).getSalary());
                             Driver.university.tr.setAttendance(AdminBlock.teacherList.get(i).getAttendance());
                             Driver.university.tr.setPort(AdminBlock.teacherList.get(i).getPort());
+                            Driver.university.tr.server = AdminBlock.teacherList.get(i).server;
                         }
                     }
                     label.setText("");
+                    Driver.university.tr.startServer(Driver.university.tr.getPort());
                     Driver.mainContainer.loadScreen(Driver.screen4ID, Driver.screen4File);
                     controller.setScreen(Driver.screen4ID);
-                    System.out.println(Driver.university.tr.getPort());
                 } else
                     label.setText("ID or Password incorrect");
             } else if (choices.getValue().equals("Dean")) {
@@ -151,28 +153,29 @@ public class LoginController implements Initializable, ControlledScreen {
                             Driver.university.dn.setSalary(AdminBlock.deanList.get(i).getSalary());
                             Driver.university.dn.setAttendance(AdminBlock.deanList.get(i).getAttendance());
                             Driver.university.dn.setPort(AdminBlock.deanList.get(i).getPort());
+                            Driver.university.dn.server = AdminBlock.deanList.get(i).server;
                         }
                     }
                     label.setText("");
+                    Driver.university.dn.startServer(Driver.university.dn.getPort());
                     Driver.mainContainer.loadScreen(Driver.screen5ID, Driver.screen5File);
                     controller.setScreen(Driver.screen5ID);
-                    System.out.println(Driver.university.dn.getPort());
                 } else
                     label.setText("ID or Password incorrect");
             } else if (choices.getValue().equals("Chief Librarian")) {
                 if (Library.chiefLibrarian.login(tField.getText(), pField.getText())) {
                     label.setText("");
+                    Library.chiefLibrarian.startServer(Library.chiefLibrarian.getPort());
                     Driver.mainContainer.loadScreen(Driver.screen6ID, Driver.screen6File);
                     controller.setScreen(Driver.screen6ID);
-                    System.out.println(Library.chiefLibrarian.getPort());
                 } else
                     label.setText("ID or Password incorrect");
             } else if (choices.getValue().equals("Vice Chancellor")) {
                 if (AdminBlock.viceChancellor.login(tField.getText(), pField.getText())) {
                     label.setText("");
+                    AdminBlock.viceChancellor.startServer(AdminBlock.viceChancellor.getPort());
                     Driver.mainContainer.loadScreen(Driver.screen7ID, Driver.screen7File);
                     controller.setScreen(Driver.screen7ID);
-                    System.out.println(AdminBlock.viceChancellor.getPort());
                 } else
                     label.setText("ID or Password incorrect");
             }
